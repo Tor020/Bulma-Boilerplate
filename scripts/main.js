@@ -1,16 +1,10 @@
-
-// document.cookie = 
-// "theme=" + encondeURIComponent("green theme") +
-// "; max-age=" + 60*10 + 
-// "; path=/; domain="
-
-
+var themeSS = document.getElementById('theme');
 var styleswap = function(url, evt){
 
   themeSS.setAttribute("href", url);
 
 }
-var themeSS = document.getElementById('theme');
+
 
 
 
